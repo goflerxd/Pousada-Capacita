@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 20%;
+    
+    text-align: center;
+}
+.foto{
+    background-image: url(file:///C:/Users/Gabriel/Pictures/cabecalho.jpg);
+    position: relative;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+}
+
+#menu ul{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #3ddeba;
+    list-style: none;
+    line-height: 40px;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+#menu ul li a:hover{
+    background-color: lime;
+
+}
+footer{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(5, 206, 85);
+    bottom: 0;
+}
+#footerEsq{
+    width: 33%;
+    text-align: center;
+}
+#footerCent{
+    width: 33%;
+
+}
+#footerDir{
+    
+    display: inline-block;
+    width: 33%;
+
+}
+.social{
+    width: 60px;
+    margin: 20px;
+}
+#paisagem1{
+    border: 1px solid #ca1fe0;
+    border-radius: 4px;
+    width: 60%;
+    padding: 5px;
+    transition: width 2s, height 5s;
+}
+#paisagem1:hover{
+    width: 80%;
+
+}
+article{
+    display: grid;
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    border: 1px solid #e60a0a;
+    border-radius: 9px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

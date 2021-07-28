@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<link rel = "stylesheet" type = "text/css" href = "estilo.css" media = "screen" />
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Pousada Capacita</title>
+    <link rel = "icon" href = "https://i.imgur.com/1HqBAhW.png">
+</head>
+<body>
+    <header class = "header">
+        <div class = "container">
+            <div class = "foto">
+
+            </div>
+            <div id = "menu">
+                <ul>
+                    <li> <a href = "index.html">Início</a>
+                    </li>
+                    <li><a href = "contato.html">Contato</a>
+                    </li>
+                    <li><a href = sobre.html>Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <article>
+    <section>
+
+        <center>
+            <h3>FALE CONOSCO</h3>
+        <form action = "salvar.html">
+            <table>
+                <tr>
+                <td><label for="nome">
+                Nome completo: </label></td>
+                <td>
+                    <input type="text" id="nome"
+                    required>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nascimento"> Data de Nascimento: </label>
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                   
+                    <td colspan="2">
+                        <label type="endereco">Endereço: </label>
+                        <select
+                        name="logradouro"
+                        id="logradouro">
+                        <option>Alameda</option>
+                        <option>Avenida</option>
+                        <option>Quadra</option>
+                        <option>Rua</option>
+                        <option>Travessa</option>
+                    </select> 
+                    <input type ="text" name ="descricao" id ="descricao" required>
+                    <input type ="text" name ="numero" id ="numero" size="3" required>
+                </td>
+                <tr>
+                <td><select name ="UF" id ="UF">
+                    <option value="">CE</option>
+                    <option value="">PI</option>
+                    <option value="">MT</option>
+    
+                </select>
+                <td><select name ="Cidade" id = "cidade">
+                    <option value="">Fortaleza</option>
+                    <option value="">Caucaia</option>
+                    <option value="">Teresina</option>
+                    <option value="">Cuiaba</option>
+                    <option value="">Vargem Grande</option>
+                </select> 
+            </td>
+         </tr> 
+         <tr>
+             <td>
+                 <input type="checkbox" name=confirmacao required>
+                 <label for="confirmacao">Você é um humano??</label>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <input type = "submit">
+             </td>
+             <td>
+                 <input type = "reset">
+             </td>
+         </tr>
+    
+    
+         </td>
+        </tr>
+    
+            </table>
+        </form></center>
+        <br>
+        <br>
+    </article>
+
+    </section>
+
+
+    <footer>
+        <div id=footerEsq>
+            <img src="file:///C:/Users/Gabriel/Pictures/logo.png" width="100%">
+        </div>
+
+        <div id=footerCent>
+            <img src= "file:///C:/Users/Gabriel/Pictures/facebook.png" alt="" class="social">
+            <img src= "file:///C:/Users/Gabriel/Pictures/instagram.png" alt="" class="social">
+            <img src="file:///C:/Users/Gabriel/Pictures/whatsapp.png" alt="" class="social">
+            <img src="file:///C:/Users/Gabriel/Pictures/linkedin.png" alt="" class="social">
+
+        </div>
+        <div id=footerDir>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914.914537493447!2d-41.783723737594286!3d-4.272886323291069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7930792ba847805%3A0x640746ffc4f2dfe8!2sPiripiri%20-%20PI!5e0!3m2!1spt-BR!2sbr!4v1627429608995!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+
+
+
+    </footer>
+
+    
+</body>
+</html>
